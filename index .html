@@ -31,7 +31,20 @@
         />
         <button id="search-btn">Search</button>
       </div>
-      <div id="error-container" class=""></div>
+      <div id="search-btn" class="hidden">
+        <p>No meals found. Try another search term!</p>
+      </div>
+
+      <div id="result-heading"></div>
+
+      <div id="meals" class="meals-container"></div>
+
+      <div id="meal-details" class="hidden">
+        <button id="back-btn">
+          <i class="fas fa-arrow-left"></i> Back to recipes
+        </button>
+        <div class="meal-details-content"></div>
+      </div>
     </div>
 
     <script src="script.js"></script>
